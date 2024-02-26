@@ -1,0 +1,125 @@
+@import '../../../styles/variable'
+
+.testimonial_bg
+  height: 458px
+  position: $position_relative
+  &::before
+    content: '\A'
+    position: $position_absolute
+    background: $testimonial_background_color
+    top: $zero
+    bottom: $zero
+    left: $zero
+    width: $seventyFive_percen
+
+.testimonial_heading
+  position: absolute
+  top: 51px
+
+.event_details_des
+  @extend %font_size_16
+  @extend %font_family_lato
+  height: 100px
+  font-weight: 800
+
+.testimonials_container
+  display: $flex
+  align-items: $center
+  margin: $zero $auto
+  height: 458px
+  @extend %container_width
+
+.testimonials_subcontainer
+  width: $full_width
+  display: $flex
+  height: 250px
+
+.testimonials_title
+  text-align: $left
+  @extend %font_size_32
+  font-weight: $six_hundred
+  @extend %font_family_oswald
+
+.testimonials_des
+  overflow: hidden
+  color: #525252
+  text-align: $left
+  @extend %font_size_24
+  @extend %font_family_roboto
+  width: 100% !important
+
+.before_des_img,
+.after_des_img
+  width: $full_width
+  height: $full_width
+  background-repeat: $no_repeat
+  background-position: $zero $fifty_percen
+
+.after_des_img
+  transform: scale(-1, 1)
+
+.after_des_img
+  background-position: $full_width $ten_percen
+
+.testimonials_author
+  @extend %font_size_24
+  text-align: right
+  font-weight: $bold
+  @extend %font_family_lato
+
+.image_container
+  @extend %display_flex
+  justify-content: end
+  align-items: $center
+  height: 250px
+
+.testimonials_image,
+.testimonials_image_box
+  border-radius: 32px
+
+.testimonials_image_box
+  height: 200px
+  width: 200px
+  overflow: hidden
+  background: #e4e4e4
+  box-shadow: 30px 30px #FDCF3C
+
+@media (min-width: 1640px) and (max-width: 1920px)
+  .testimonial_bg
+    &::before
+      width: 80%
+
+@media (min-width: 1921px) and (max-width: 2060px)
+  .testimonial_bg
+    &::before
+      width: 78%
+
+@media (min-width: 2061px) and (max-width: 2300px)
+  .testimonial_bg
+    &::before
+      width: 75%
+
+@media (min-width: 2301px) and (max-width: 2600px)
+  .testimonial_bg
+    &::before
+      width: 72%
+
+@media (min-width: 1561px) and (max-width: 1639px)
+  .testimonial_bg
+    &::before
+      width: 84%
+
+@media (min-width: 770px) and (max-width: 1199px)
+  .testimonial_bg
+    &::before
+      width: 85%
+
+@media (min-width: 1200px) and (max-width: 1368px)
+  .testimonial_bg
+    &::before
+      width: 85%
+
+@media (min-width: 1369px) and (max-width: 1560px)
+  .testimonial_bg
+    &::before
+      width: 87%

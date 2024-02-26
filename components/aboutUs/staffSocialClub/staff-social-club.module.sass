@@ -1,0 +1,29 @@
+@import "../../../styles/variable"
+
+.ssc_bg
+    background-repeat: $no_repeat
+    background-position: 0px -190px
+    background-size: auto 96%
+    width: $full_width
+
+
+.mission_title
+    font-size: 35px
+    @extend %font_family_oswald
+
+.member_name
+    @extend  %font_size_24
+    @extend %font_family_roboto
+    color: #525252
+
+.member_degisnation
+    @extend  %font_size_16
+    @extend %font_family_lato
+    color: #525252
+
+@media (min-width: 1441px) and (max-width: 2560px)
+    .ssc_bg
+        background-repeat: $no_repeat
+        background-position: 0px -363px
+        background-size: auto 125%
+        width: $full_width  

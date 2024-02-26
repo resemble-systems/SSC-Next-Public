@@ -1,0 +1,59 @@
+@import '../../styles/variable'
+
+.offers_container
+    margin-top: 350px
+
+.image
+    width: 650px
+    height: 400px
+
+@media only screen and (max-width: $beakpoint_laptop_s)
+    .offers_container
+        width: 100% $important
+@media only screen and (max-width: $beakpoint_tablet_s)
+    .image
+        width: 580px
+        height: 360px
+@media only screen and (max-width: $beakpoint_mobile_l)
+    .image
+        width: 400px
+        height: 315px
+@media only screen and (max-width: $beakpoint_mobile_s)
+    .image
+        width: 365px
+        height: 290px
+// @media only screen and (max-width: 375px)
+//     .image
+//         width: 350px
+//         height: 240px
+@media only screen and (max-width: 320px)
+    .image
+        width: 300px
+        height: 200px
+
+@media (min-width: 768px) and (max-width: 1025px)
+    .offers_container
+        margin-top: 250px
+
+@media (min-width: 1024px) and (max-width: 1119px)
+    .offers_container
+        margin-top: 170px
+
+@media (min-width: 1120px) and (max-width: 1441px)
+    .offers_container
+        margin-top: 250px
+
+.event_details_des
+    @extend %font_size_16
+    @extend %font_family_lato
+    height: 120px
+
+.event_details_title
+    font-weight: $bold
+    font-size: 28px
+    @extend %font_family_oswald
+
+.event_details_des
+    @extend %font_size_16
+    @extend %font_family_lato
+    height: 120px

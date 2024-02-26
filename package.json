@@ -1,0 +1,44 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && rm -rf ./.next/cache",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.5.0",
+    "@syncfusion/ej2-base": "^19.1.54",
+    "@syncfusion/ej2-react-calendars": "^19.1.54",
+    "antd": "^4.15.5",
+    "aphrodite": "^2.4.0",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.3.2",
+    "google-map-react": "^2.2.1",
+    "is-image": "^3.0.0",
+    "moment": "^2.29.1",
+    "next": "13.4.12",
+    "path": "^0.12.7",
+    "postcss": "^8.4.27",
+    "react": "^18.2.0",
+    "react-alice-carousel": "^2.5.1",
+    "react-animations": "^1.0.0",
+    "react-cool-inview": "^2.0.5",
+    "react-dom": "^18.2.0",
+    "react-google-charts": "^3.0.15",
+    "react-google-maps": "^9.4.5",
+    "react-image-lightbox": "^5.1.1",
+    "react-image-video-lightbox": "^2.0.4",
+    "react-in-viewport": "^1.0.0-alpha.16",
+    "react-player": "^2.9.0",
+    "react-responsive-carousel": "^3.2.18",
+    "react-router-dom": "^5.2.0",
+    "sass": "^1.32.8",
+    "swr": "^2.2.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "react-video-thumbnail": "^0.1.3"
+  }
+}
